@@ -1,492 +1,528 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="shortcut icon" type="image" href="img/icons/favicon.png">
-        <title>Title Here</title>
-    </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LoveLetters</title>
+    <link rel="shortcut icon" type="image" href="img/letter.png">
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+    <!-- Fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <!-- Bootstrap cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+    <!-- Core css file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav style="display: contents;">
+            <div class="brand-logo"><img src="img/letter.png" class="img-fluid logo" alt="Logo"></div>
+        </nav>
+        <div class="container">
+           <div class="header-content">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
+                    <div class="header__left">
+                        <h2 class="heading__second">Together, We Can Tackle Hunger</h2>
+                        <span class="read-more colorwhite"><a href="website.html"><button type="button" class="btn btn-dark">Read More</button></a>
+                        <button type="button" class="btn btn-outline-primary colorwhite">Login Here</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="header__right text-center">
+                        <span class="love-txt">L<i class="far fa-heart"></i>ve Letters</span>
+                        <div class="letter-img">
+                            <img  src="img/loveletters1.png" id="love-image" alt="love-letter" class="letter img-fluid letter1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </header>
 
-		<nav class="navbar navbar-expand-sm navbar-warning fixed-top bg-warning text-white">
-		  <ul class="navbar-nav">
-			<li class="nav-item">
-			  <a class="nav-link" href="#section1">About Us</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="#section2">Process</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="#section3">Help</a>
-			</li>
-		  </ul>
-		</nav>
+    <section class="main-progress">
+        <div class="container">
+            <div class="text-center">
+                <span class="p-text" >The Progress</span>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+                    <div class="progress-box text-center">
+                        <img src="img/food.png" alt="food" class="progress-img zoom mb-4">
+                        <h2 class="progress-txt">Donate</h2>
+                        <span class="icon-right"><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+                    <div class="progress-box text-center">
+                        <img src="img/storing.png" alt="food" class="progress-img zoom mb-4 ">
+                        <h2 class="progress-txt">Storing & Sorting</h2>
+                        <span class="icon-right"><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+                    <div class="progress-box text-center">
+                        <img src="img/shipping.png" alt="food" class="progress-img zoom mb-4 ">
+                        <h2 class="progress-txt">Delivery</h2>
+                        <span class="icon-right"><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 mt-3">
+                    <div class="progress-box text-center">
+                        <img src="img/mother.png" style="    width: 84px;" alt="food" class="progress-img zoom mb-4">
+            <h2 class="progress-txt">Giving</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<div id="section1" class="container-fluid section" style="padding-top:20px;padding-bottom:70px">
-		  <!-- Section1 About Us-->
-		  <div class="card">
-				<div class="card-header bg-warning">About</div>
-				<div class="card-body">
-					<div class="container-fluid section1 text-center">
-						<div>
-							<h5>L<img src="images/heart.png" width="24"/>VE LETTERS</h5>
-						</div>
-						<div class="center-image" style="margin-bottom: 30px">
-							<img src="images/loveletters.png" width="80" height="80"/>
-						</div>
-						<div>
-							<h5>TOGETHER, WE CAN TACKLE HUNGER</h5>
-						</div>	
-					</div>
-				</div>
-			</div>
-		<!-- end Section1 -->
-		</div>
-		<div id="section2" class="section container-fluid" style="padding-top:70px;padding-bottom:70px">
-		<div class="card">
-				<div class="card-header bg-warning">Process</div>
-				<div class="card-body">
-					<div class="container-fluid section1 text-center">
-						<div class="row bs-wizard" style="border-bottom:0; display: -webkit-inline-box;">               
-						<div class="col-xs-3 bs-wizard-step complete" style="width: 208px">
-							<div class="bs-wizard-info text-center"><img style="position: absolute; bottom: 52px; left: 70px;" src="images/food.png" width="70" class="zoom" /></div>
-						  <div class="progress"><div class="progress-bar"></div></div>
-						  <a href="#section3" class="bs-wizard-dot"></a>                  
-						  <div class="text-center bs-wizard-stepnum">DONATE</div>
-						</div>
-						
-						<div class="col-xs-3 bs-wizard-step complete"><!-- complete -->                  
-						  <div class="bs-wizard-info text-center">
-						  <img style="position: absolute; bottom: 52px; left: 27px;" class="zoom" src="images/delivery.png" width="70" />
-						  <img style="position: absolute; bottom: 52px; right: 20px;" class="zoom" src="images/warehouse.png" width="70" />
-						  </div>
-						  <div class="progress"><div class="progress-bar"></div></div>
-						  <a href="#section3" class="bs-wizard-dot"></a>
-						  <div class="text-center bs-wizard-stepnum">STORING AND SORTING</div>
-						</div>
-						
-						<div class="col-xs-3 bs-wizard-step complete"><!-- complete -->
-						  <div class="bs-wizard-info text-center">
-						  <img style="position: absolute; bottom: 52px; left: 27px;" class="zoom" src="images/help (1).png" width="70" />
-						  <img style="position: absolute; bottom: 52px; right: 20px;" class="zoom" src="images/shipping-and-delivery.png" width="70" />
-						  </div>
-						  <div class="progress"><div class="progress-bar"></div></div>
-						  <a href="#section3" class="bs-wizard-dot"></a>
-						  <div class="text-center bs-wizard-stepnum">DELIVERY</div>
-						</div>
-						
-						<div class="col-xs-3 bs-wizard-step active"><!-- active -->
-						  <div class="bs-wizard-info text-center"><img style="position: absolute; bottom: 52px; left: 61px;" class="zoom" src="images/mother.png" width="70" /></div>
-						  <div class="progress"><div class="progress-bar"></div></div>
-						  <a href="#section3" class="bs-wizard-dot"></a>
-						  <div class="text-center bs-wizard-stepnum">GIVING</div>                  
-						</div>
-					</div>	
-				</div>
-			</div>
-			</div>				
-		</div>
-		
-		<!-- Section2 -->
-		<div id="section3" class="container-fluid section2 section" style="padding-top:70px;padding-bottom:70px">
-			<div class="card">
-				<div class="card-header bg-warning">Help</div>
-				<div class="card-body">
-					<div class="text-center" style="padding: 20px 0">I WOULD LIKE TO...</div>
-					<div class="row justify-content-md-center card-deck">
-					  <div class="col-sm-3 card bg-grey">
-						<div class="card-body text-center">
-						  <img src="images/volunteer.png" width="100" />
-						  <p class="card-text">VOLUNTEER</p>
-						  <div class="text-center" style="width: 100%">					
-							<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#volunteerModal" data-whatever="@getbootstrap">CONTINUE</button>		
-						  </div>
-						</div>
-					  </div>
-					  <div class="col-sm-3 card bg-grey">
-						<div class="card-body text-center">
-						  <img src="images/food.png" width="100" />
-						  <p class="card-text">DONATE FOOD</p>
-						  <div class="text-center" style="width: 100%">
-							<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#foodModal" data-whatever="@getbootstrap">CONTINUE</button>
-						  </div>
-						</div>
-					  </div>
-					  <div class="col-sm-3 card bg-grey">
-						<div class="card-body text-center">
-						  <img src="images/credit_card.png" width="100" />
-						  <p class="card-text" style="white-space: pre">DONATE MONEY</p>
-						  <div class="text-center" style="width: 100%">					
-							<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#moneyModal" data-whatever="@getbootstrap">CONTINUE</button>
-						  </div>
-						</div>
-					  </div>
-					</div>
-				</div> 
-		    </div>			
-		</div>
-		
-		<!-- Volunteers -->
-		
-		<div class="modal fade" id="volunteerModal" tabindex="-1" role="dialog" aria-labelledby="volunteerModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">			
-			  <div class="modal-body" style="padding: 20px">
-				<div class="text-center" style="padding: 20px 0"><h4><strong>PLEASE FILL IN YOUR PARTICULARS</strong></h4>
-				<button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
-				</div>
-				<div class="input-group mb-3">
-				  <div class="input-group-prepend">
-					<span class="input-group-text"><img src="images/name.png" width="15" /></span>
-				  </div>
-				  <input type="text" class="form-control" placeholder="Full Name" id="register-full-name" name="register-full-name">
-				</div>
-				<div class="input-group mb-3">
-				  <div class="input-group-prepend">
-					<span class="input-group-text"><img src="images/mail.png" width="15" /></span>
-				  </div>
-				  <input type="text" class="form-control" placeholder="Email Address" id="register-email" name="register-email">
-				</div>
-				<div class="input-group mb-3">
-				  <div class="input-group-prepend">
-					<span class="input-group-text"><img src="images/password.png" width="15" /></span>
-				  </div>
-				  <input type="text" class="form-control" placeholder="Password" id="register-password" name="register-password">
-				</div>
-				<div class="input-group mb-3">
-				  <div class="input-group-prepend">
-					<span class="input-group-text"><img src="images/password.png" width="15" /></span>
-				  </div>
-				  <input type="text" class="form-control" placeholder="Re-enter Password" id="register-repeated-password" name="register-repeated-password">
-				</div>
-				<div class="input-group mb-3">
-				  <div class="input-group-prepend">
-					<span class="input-group-text"><img src="images/telephone.png" width="15" /></span>
-				  </div>
-				  <input type="text" class="form-control" placeholder="Phone Number" id="register-phone-number" name="register-phone-number">
-				</div>
-				
-				<div class="mb-3">
-					<div class="" style="width: 100%"><button type="button" class="btn btn-warning">CONTINUE</button></div>
-				</div>
-				
-			  </div>
-			</div>
-		  </div>
-		</div>
+    <section class="process">
+        <div class="container">
+            <div class="process-box">
+                <div class="text-center like-to-text" style="padding: 20px 0">I Would Like To...</div>
+                <div class="row justify-content-center ">
+                  <div class="col-lg-4 col-md-6 col-sm-10  bg-grey">
+                    <div class="my-card">
+                        <div class="card-body text-center">
+                            <img src="img/volunteer.png" width="100" />
+                            <p class="card-text card-mtop">VOLUNTEER</p>
+                            <div class="text-center" style="width: 100%">
+                              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#volunteerModal" data-whatever="@getbootstrap">CONTINUE</button>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-10  bg-grey">
+                    <div class="my-card">
+                        <div class="card-body text-center">
+                            <img src="img/food.png" width="100" />
+                            <p class="card-text card-mtop">DONATE FOOD</p>
+                            <div class="text-center" style="width: 100%">
+                              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#foodModal" data-whatever="@getbootstrap">CONTINUE</button>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-10  bg-grey">
+                    <div class="my-card">
+                        <div class="card-body text-center">
+                            <img src="img/credit_card.png" width="100" />
+                            <p class="card-text card-mtop">DONATE MONEY</p>
+                            <div class="text-center" style="width: 100%">
+                              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#moneyModal" data-whatever="@getbootstrap">CONTINUE</button>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- end Volunteers -->
-		
-		<!-- money section -->
-		<div class="modal fade" id="moneyModal" tabindex="-1" role="dialog" aria-labelledby="moneyModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">			  
-			  <div class="modal-body" style="padding: 80px 0">
-				  <div class="row justify-content-md-center card-deck">
-						<button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
-					  <div class="col-sm-3 card bg-grey">
-						<div class="card-body text-center">
-						  <img src="images/paypal.jpg" width="150" />
-						  <p class="card-text">PAYPAL</p>
-						  <div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning" onClick="$('#moneyModal').modal('hide'); $('#paypalModal').modal('show');">CONTINUE</button></div>
-						</div>
-					  </div>
-					  <div class="col-sm-3 card bg-grey">
-						<div class="card-body text-center">
-						  <img src="images/credit_card.png" width="100" />
-						  <p class="card-text">CREDIT CARD</p>
-						  <div class="text-center" style="width: 100%">
-						  <button type="button" class="btn btn-warning" onClick="$('#moneyModal').modal('hide'); $('#creditCardModal').modal('show');">CONTINUE</button>							  
-						  </div>
-						</div>
-					  </div>
-					</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-		
-		<!-- Large modal -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-row justify-content-center">
+                <div class="col-lg-7 col-md-7 col-sm-12 mb-5">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.55879363674!2d103.76765731444921!3d1.4397138616819143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da12ff54f97d8d%3A0x787be3b4b1396796!2s178%20Woodlands%20Centre%20Rd%2C%20Blk%204A%2C%20Singapore!5e0!3m2!1sen!2sin!4v1580073426011!5m2!1sen!2sin" width="100%" height="450px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <div class="info">
+                        <div class="my_address mb-5">
+                            <span class="address mb-1">ADDRESS</span>
+                            Blk 4A Woodlands Centre Road #01-78 731004 Singapore
+                        </div>
+                        <div class="my_contacts">
+                            <span class="contacts">CONTACTS</span>
+                            <span>Email: LoveLetters@gmail.com</span><br>
+                            <span>Phone: +65 1234 5678</span><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<div class="modal fade" id="foodModal" tabindex="-1" role="dialog" aria-labelledby="foodModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
-			  <div class="modal-body">
-				<div class="food-details">
-					<div class="text-center food-details-heading"><h4><strong>Donate Food Details</strong></h4></div>
-					<button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
-					<form>
-					  <div class="form-group">
-						<label for="food-item" class="col-form-label">Food Item(Please specify, "5 Tins of Milo")</label>
-						<input type="text" class="form-control" id="food-item">
-					  </div>
-					  <div class="form-group">
-						<label for="preferred-time" class="col-form-label">Preferred Time</label>
-						<select class="form-control" id="preferred-time">
-							<option value="9am-11am">9am-11am</option>
-							<option value="11am-1pm">11am-1pm</option>
-							<option value="11am-1pm">1pm-3pm</option>
-							<option value="11am-1pm">3pm-5pm</option>
-							<option value="11am-1pm">5pm-7pm</option>
-							<option value="11am-1pm">7pm-9pm</option>
-							<option value="11am-1pm">9pm-11pm</option>
-						</select>
-					  </div>
-					  
-					  <div class="form-group">
-					  <label for="date" class="col-form-label">Date</label>
-						  <div class="input-group mb-3">				  	
-						  <input type="text" class="form-control datepicker" placeholder="Date" id="date" name="date" data-date-format="dd-M-yyyy" readonly>
-						  <div class="input-group-append">
-							<span class="input-group-text"><i class="fa fa-calendar"></i></span>
-						  </div>
-						</div>
-					   </div>
-					   
-					  <div class="form-group">
-					  <label for="expiry-date" class="col-form-label">Expiry Date ( Please make sure it is at least 6 months before expiry )</label>
-						  <div class="input-group mb-3">				  	
-						  <input type="text" class="form-control datepicker" placeholder="Expiry Date" id="expiry-date" name="expiry-date" data-date-format="dd-M-yyyy" readonly>
-						  <div class="input-group-append">
-							<span class="input-group-text"><i class="fa fa-calendar"></i></span>
-						  </div>
-						</div>
-					   </div>			
-					
-					</form>
-				</div>
-			  </div>
-			  <div class="text-center" style="padding-bottom: 35px;">
-				<div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning">Submit</button></div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-		
-		<!-- Credit Card Donation Gateway -->
-		<div class="modal fade" id="creditCardModal" tabindex="-1" role="dialog" aria-labelledby="creditCardModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-			<div class="modal-content">
-			  <div class="modal-body">
-				<!--<div class="card-header bg-warning text-white">Credit Card</div> -->
-				<div class="cards">					
-					<div class="credit-card">
-						<div class="text-center food-details-heading"><h4><strong>Donation Gateway</strong></h4></div>
-						<button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
-						<form action="">
-						  <div class="form-group">
-							<label for="select-amt">Select An Amount</label>						
-							<div class="btn-group" style="display: block" role="group" aria-label="Basic example">
-							  <button type="button" class="btn btn-warning select_amt text-white" data-value="5">$5</button>
-							  <button type="button" class="btn btn-warning select_amt text-white" data-value="25">$25</button>
-							  <button type="button" class="btn btn-warning select_amt text-white" data-value="50">$50</button>
-							  <button type="button" class="btn btn-warning select_amt text-white" data-value="100">$100</button>
-							</div>
-							<input name="select_amt" type="hidden"/>
-						  </div>
-						  <div class="form-group">
-							<label for="food-item" class="col-form-label">Other Amount</label>						
-							<div class="input-group mb-3">				  	
-							  <div class="input-group-append">
-								<span class="input-group-text">$</span>
-							  </div>
-							  <input type="text" class="form-control" placeholder="Enter An Amount" id="food-item">
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="select-a-card" class="col-form-label">Please Select A Card:</label>
-							<select class="form-control" id="select-a-card" placeholder="Visa, Master, American Express, Discover">
-								<option value="9am-11am">Visa</option>
-								<option value="11am-1pm">Master</option>
-								<option value="11am-1pm">American Express</option>
-								<option value="11am-1pm">Discover</option>							
-							</select>
-						  </div>
-						  <div class="form-group">
-							<label for="card-full-name" class="col-form-label">Card Holder Name:</label>						
-							<div class="input-group mb-3">				  	
-							  <div class="input-group-append">
-								<span class="input-group-text">$</span>
-							  </div>
-							  <input type="text" class="form-control" placeholder="Full Name" id="card-full-name">
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="card-number" class="col-form-label">Card Number:</label>						
-							<div class="input-group mb-3">				  	
-							  <div class="input-group-append">
-								<span class="input-group-text">$</span>
-							  </div>
-							  <input type="text" class="form-control" placeholder="Card Number" id="card-number">
-							</div>
-						  </div>
-						   
-						  <div class="form-group row">
-						   <div class="col">
-							  <label for="expiry-date" class="col-form-label">Expiry Date:</label>
-								  <div class="input-group">
-								  <input type="text" class="form-control" placeholder="00/00" id="month-year" name="expiry-date" data-date-format="mm/yy" readonly>
-								  <div class="input-group-append">
-									<span class="input-group-text"><i class="fa fa-calendar"></i></span>
-								  </div>
-								</div>
-						   </div>						   
-						   <div class="col">
-						    <label for="security-cvv" class="col-form-label">Security Code (CVV):</label>
-							<div class="input-group">				  	
-							  <div class="input-group-append">
-								<span class="input-group-text">$</span>
-							  </div>
-							  <input type="number" class="form-control" placeholder="000" id="security-cvv">
-							</div>
-						   </div>
-						  </div>
-						</form>
-					</div>
-				</div>
-			  </div>
-			  <div class="text-center" style="padding-bottom: 35px;">
-				<div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning">Donate</button></div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-		<!-- Credit Card Donation Gateway ends -->
-		
-		<!-- Paypal Donation Gateway -->
-		<div class="modal fade" id="paypalModal" tabindex="-1" role="dialog" aria-labelledby="paypalModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-			<div class="modal-content">
-			  <div class="modal-body">
-				<!--<div class="card-header bg-warning text-white">Credit Card</div> -->
-				<div class="cards">					
-					<div class="credit-card">
-						<div class="text-center food-details-heading"><h4><strong>Donation Gateway</strong></h4></div>
-						<button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
-						<form>
-						  <div class="form-group">
-							<label for="food-item">Select An Amount</label>						
-							<div class="btn-group" style="display: block" role="group" aria-label="Basic example">
-							  <button type="button" class="btn btn-warning text-white">$5</button>
-							  <button type="button" class="btn btn-warning text-white">$25</button>
-							  <button type="button" class="btn btn-warning text-white">$50</button>
-							  <button type="button" class="btn btn-warning text-white">$100</button>
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="food-item" class="col-form-label">Other Amount</label>						
-							<div class="input-group mb-3">				  	
-							  <div class="input-group-append">
-								<span class="input-group-text">$</span>
-							  </div>
-							  <input type="text" class="form-control" placeholder="Enter An Amount" id="food-item">
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="card-full-name" class="col-form-label">Card Holder Name:</label>						
-							<div class="input-group mb-3">				  	
-							  <div class="input-group-append">
-								<span class="input-group-text">$</span>
-							  </div>
-							  <input type="text" class="form-control" placeholder="Full Name" id="card-full-name">
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="card-number" class="col-form-label">Email:</label>						
-							<div class="input-group mb-3">				  	
-							  <div class="input-group-append">
-								<span class="input-group-text">$</span>
-							  </div>
-							  <input type="text" class="form-control" placeholder="Email Address" id="card-number">
-							</div>
-						  </div>
-						</form>
-					</div>
-				</div>
-			  </div>
-			  <div class="text-center" style="padding-bottom: 35px;">
-				<div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning">Donate</button></div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-		<!-- Paypal Donation Gateway ends -->
-		
-		<!-- Transaction Successful -->
-		<div class="modal fade" id="transactionSuccessModal" tabindex="-1" role="dialog" aria-labelledby="transactionSuccessModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
-			<div class="modal-content">
-			  <div class="modal-body">
-				<!--<div class="card-header bg-warning text-white">Credit Card</div> -->
-				<div class="cards">					
-					<div class="credit-card">					
-						<button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
-						<div style="padding: 15%" class="text-center">
-							<p>Transaction Successful!</p>
-							<img width="100" height="100" style="margin-bottom: 5px"/>
-							<p>Hi Tom, Thank you for your Support!
-							</br>
-							Your Donation of $5 has been processed.</p>
-						</div>
-					</div>
-				</div>
-			  </div>			  
-			</div>
-		  </div>
-		</div>
-		<!-- Transaction Successful ends -->
-		
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <!-- <script src="app.js"></script> -->
-		
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+        </div>
+        <div class="footer-txt">
+            <p>&copy; 2020. ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+
+<!-- MODELS   -->
+
+<div class="modal fade" id="volunteerModal" tabindex="-1" role="dialog" aria-labelledby="volunteerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body" style="padding: 20px">
+          <div class="text-center" style="padding: 20px 0"><h4><strong>PLEASE FILL IN YOUR PARTICULARS</strong></h4>
+          <button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><img src="img/name.png" width="15" /></span>
+            </div>
+            <input type="text" class="form-control" placeholder="Full Name" id="register-full-name" name="register_full_name">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><img src="img/mail.png" width="15" /></span>
+            </div>
+            <input type="text" class="form-control" placeholder="Email Address" id="register-email" name="register_email">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><img src="img/password.png" width="15" /></span>
+            </div>
+            <input type="password" class="form-control" placeholder="Password" id="register-password" name="register_password">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><img src="img/password.png" width="15" /></span>
+            </div>
+            <input type="password" class="form-control" placeholder="Re-enter Password" id="register-repeated-password" name="register_repeated_password">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><img src="img/telephone.png" width="15" /></span>
+            </div>
+            <input type="text" class="form-control" placeholder="Phone Number" id="register-phone-number" name="register_phone_number">
+          </div>
+
+          <div class="mb-3">
+              <div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning" id="volunteerModal-submit">CONTINUE</button></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end Volunteers -->
+
+  <!-- money section -->
+  <div class="modal fade" id="moneyModal" tabindex="-1" role="dialog" aria-labelledby="moneyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body" style="padding: 80px 0">
+            <div class="row justify-content-md-center card-deck">
+                  <button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
+                <div class="col-md-4 col-sm-5 bg-grey">
+                  <div class="card-body text-center">
+                    <img src="img/paypal.png" width="105" />
+                    <p class="card-text">PAYPAL</p>
+                    <div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#paypalModal" data-dismiss="modal" data-whatever="@getbootstrap">CONTINUE</button></div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-5 bg-grey">
+                  <div class="card-body text-center">
+                    <img src="img/credit_card.png" width="100" />
+                    <p class="card-text">CREDIT CARD</p>
+                    <div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#creditModal" data-dismiss="modal" data-whatever="@getbootstrap">CONTINUE</button></div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Food modal -->
+
+  <div class="modal fade" id="foodModal" tabindex="-1" role="dialog" aria-labelledby="foodModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="food-details">
+              <div class="text-center food-details-heading"><h4><strong>Donate Food Details</strong></h4></div>
+              <button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
+              <form>
+                <div class="form-group">
+                  <label for="food-item" class="col-form-label">Food Item</label>
+                  <br>
+                  <p class= "text-muted">Please specify, "5 Tins of Milo"</p>
+                  <input type="text" class="form-control" id="food-item" name="food_item">
+                </div>
+                <div class="form-group">
+                  <label for="preferred-time" class="col-form-label">Preferred Time</label>
+                  <select class="form-control" id="preferred-time" name="preferred_time">
+                      <option value="9am-11am">9am-11am</option>
+                      <option value="11am-1pm">11am-1pm</option>
+                      <option value="11am-1pm">1pm-3pm</option>
+                      <option value="11am-1pm">3pm-5pm</option>
+                      <option value="11am-1pm">5pm-7pm</option>
+                      <option value="11am-1pm">7pm-9pm</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                <label for="date" class="col-form-label">Date</label>
+                    <div class="input-group mb-3">
+                    <input type="text" class="form-control datepicker" placeholder="Date" id="date" name="date" data-date-format="dd-M-yyyy" name="preferred_date" readonly>
+                    <div class="input-group-append">
+                      <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                    </div>
+                  </div>
+                 </div>
+
+                <div class="form-group">
+                <label for="expiry-date" class="col-form-label">Expiry Date</label>
+                    <br>
+                    <p class="text-muted">*Ensure that the food is 6 months before expiry*</p>
+                    <div class="input-group mb-3">
+                    <input type="text" class="form-control datepicker" placeholder="Expiry Date" id="expiry-date" name="expiry_date" data-date-format="dd-M-yyyy" readonly>
+                    <div class="input-group-append">
+                      <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                    </div>
+                  </div>
+                 </div>
+
+              </form>
+          </div>
+        </div>
+        <div class="text-center" style="padding-bottom: 35px;">
+          <div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning" id="donate-food-detail-submit">Submit</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end food modal   -->
+
+
+  <!-- thank modal   -->
+
+  <div class="modal fade" id="thankModal" tabindex="-1" role="dialog" aria-labelledby="thankModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-body" style="height:400px">
+            <div class="custom-center" >
+                    <p class="card-text">Thank you for donating!</p>
+                      <img src="img/food.png" width="100" />
+                      <div class="text-center" style="width: 100%; margin-top:30px;">
+                        <button type="button" class="btn btn-warning white" data-dismiss="modal">Home</button>
+                      </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end thank -->
+
+
+
+  <!-- Paypal modal   -->
+
+  <div class="modal fade" id="paypalModal" tabindex="-1" role="dialog" aria-labelledby="paypalModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-body" style="padding: 20px">
+            <form id="paypalModal-form">
+              <div class="text-center" style="padding: 20px 0"><h4><strong>Donation Gateway</strong></h4>
+              <button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
+              </div>
+              <div class="row mb-3">
+                <div class="col-lg-12" id="paypalAmounts">
+                  <span class="btn btn-warning btn-sm white" id="paypal5Dollars" value="5">$5</span>
+                  <span class="btn btn-warning btn-sm white" id="paypal10Dollars" value="10">$10</span>
+                  <span class="btn btn-warning btn-sm white" id="paypal15Dollars" value="15">$15</span>
+                  <span class="btn btn-warning btn-sm white" id="paypal15Dollars" value="20">$20</span>                  
+                </div>
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><img src="img/coin.png" width="15" /></span>
+                </div>
+                <input type="number" class="form-control" placeholder="Other Amount" id="paypal-other-amount" name="paypal_other_amount">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><img src="img/name.png" width="15" /></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Full Name" id="paypal-full-name" name="paypal_full_name">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><img src="img/mail.png" width="15" /></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Email Address" id="paypal-email" name="paypal_email">
+              </div>
+
+              <div class="mb-3">
+                  <div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning" id="paypalModal-btn">CONTINUE</button></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end Paypal -->
+
+
+
+
+  <!-- Credit modal   -->
+
+  <div class="modal fade" id="creditModal" tabindex="-1" role="dialog" aria-labelledby="creditModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-body " style="padding: 20px">
+            <div class="text-center" style="padding: 20px 0"><h4><strong>Donation Gateway</strong></h4>
+            <button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
+            </div>
+            <label for="creditAmounts" class="col-form-label">Select Amount:</label>
+            <div class="row mb-3">
+              <div class="col-lg-12" id="creditAmounts">
+                <span class="btn btn-warning btn-sm white" id="credit5Dollars" value="5">$5</span>
+                <span class="btn btn-warning btn-sm white" id="credit10Dollars" value="10">$10</span>
+                <span class="btn btn-warning btn-sm white" id="credit15Dollars" value="15">$15</span>
+                <span class="btn btn-warning btn-sm white" id="credit15Dollars" value="20">$20</span>                
+              </div>
+            </div>
+
+            <label for="credit-other-amount" class="col-form-label">Other Amount:</label>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><img src="img/coin.png" width="15" /></span>
+              </div>
+              <input type="text" class="form-control" placeholder="Other Amount" id="credit-other-amount" name="credit_other_amount">
+            </div>
+
+
+            <div class="form-row">
+              <div class="form-group col-md-3">
+                <p style="line-height: calc(1.5em + .75rem + 2px);margin-bottom: 0;">Please select a card: </p>
+              </div>
+              <div class="form-group col-md-7">
+                <select id="cardType" name="card_type" class="form-control">
+                  <option value="0" selected>Choose...</option>
+                  <option value="1">Master Card</option>
+                  <option value="2">Visa</option>
+                  <option value="3">American Express</option>
+                  <option value="4">Discover</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <img id="cardImage" src="img/credit_card.png" style="height: calc(1.5em + .75rem + 2px);" alt="">
+              </div>
+            </div>
+
+
+
+            <label for="credit-full-name" class="col-form-label">Card Holder Name:</label>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><img src="img/name.png" width="15" /></span>
+              </div>
+              <input type="text" class="form-control" placeholder="Full Name" id="credit-full-name" name="credit_full_name">
+            </div>
+
+            <label for="credit-number" class="col-form-label">Card Number:</label>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><img src="img/credit-card-icon.png" width="15" /></span>
+              </div>
+              <input type="number" class="form-control" placeholder="Card Number" id="credit-number" name="credit_number">
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <label for="credit-expiry" class="col-form-label">Expiry Date:</label>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><img src="img/calendar.png" width="15" /></span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="00/00" id="credit-expiry" name="credit_expiry">
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <label for="credit-cvc" class="col-form-label">Security Code (CVC):</label>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><img src="img/password.png" width="15" /></span>
+                  </div>
+                  <input type="number" class="form-control" placeholder="000" min="3" max="3" id="credit-cvc" name="credit_cvc">
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+                <div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning" onclick="creditDonation();">CONTINUE</button></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end Paypal -->
+
+
+
+    <!-- transaction modal   -->
+
+    <div class="modal fade" id="transactionModal" tabindex="-1" role="dialog" aria-labelledby="transactionModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body" style="height:400px">
+              <div class="custom-center" >
+                      <p class="card-text">Donation Succesful!</p>
+                        <img src="img/happiness.png" width="100" />
+                        <p class="card-text">Hi <span id="donatorName"></span>! Thank you for your support!</p>
+                        <p class="card-text">Your donation of $<span id="donationAmount"></span> has been processed.</p>
+                        <div class="text-center" style="width: 100%; margin-top:30px;">
+                          <button type="button" class="btn btn-warning white" data-dismiss="modal">Home</button>
+                        </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end transaction -->
+
+    <!-- Food modal -->
+
+    <div class="modal fade" id="testimonialModal" tabindex="-1" role="dialog" aria-labelledby="testimonialModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div>
+              <!-- <h4 class="text-center">People Said</h4> -->
+              <div id="testimonial-data">
+                <div class="card">
+                  <div class="card-header">
+                    People Said
+                    <button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
+                  </div>
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p id="testimonial-text"></p>
+                      <p class="blockquote-footer"><cite title="Source Title" id="testimonial-author">Source Title</cite></p>
+                    </blockquote>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end food modal   -->
+
+
+    <!-- Jquery cdn link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap core js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
-		<link href="style.css" rel="stylesheet" type="text/css" />
-		<script type="text/javascript" src="style.js" ></script>	
-			<style>			
-			.form-group .btn-group>.btn {
-				margin-left: 8px;
-			}
-			.form-group .btn-group>.btn:first-child {
-				margin-left: 0;
-			}
-			#creditCardModal .select_amt.active {
-				background-color: #218838;
-				border-color: #1e7e34;
-			}
-			</style>
-			<script type="text/javascript">
-				$(document).ready(function () {
-					$('#transactionSuccessModal').modal('show')
-				})
-				
-				$("#month-year").datepicker({
-					format: "mm/yy",
-					viewMode: "months", 
-					minViewMode: "months"
-				});
-				
-				$('#security-cvv').on('keydown', function (e) {
-					console.log(e.which, 'e.which')
-					let arr = [8, 46, 37, 38, 39, 40];
-					if(arr.includes(e.which)) {
-					} else if($(this).val().length >= 3) {
-						e.preventDefault();
-					}
-				});
-				
-				$('#creditCardModal .select_amt').on('click', function () {
-					$('#creditCardModal .select_amt').removeClass('active');
-					$(this).addClass('active');
-					$('#creditCardModal [name="select_amt"]').val($(this).data('value'));
-				})
-				
-				$('#creditCardModal').on('', function () {
-					$('name="select_amt"').val();
-				});
-			</script>
-    </body>
+    <!-- Core js -->
+    <script src="js/main.js"></script>
+</body>
 </html>
